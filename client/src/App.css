@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--primary-bg);
+  color: #ffffff;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+:root{
+  --primary-bg: #000000;
+  --secondary-bg: #141319;
+  --tertiary-bg: #17171c;
+}
+
+.icon{
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid #201f1f;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--secondary-bg);
+}
